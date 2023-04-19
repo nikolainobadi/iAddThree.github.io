@@ -1,0 +1,23 @@
+@import url("shared.css");
+   
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.screenshots {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+
+.screenshots h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.screenshots img {
+  width: calc(33.33% - 10px);
+}
